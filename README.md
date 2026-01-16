@@ -9,4 +9,4 @@ This is a basic developer profile website created as part of my online internshi
 - GitHub Pages
 
 ## Live Website
-https://prajwalgt216.github.io/my-developer-profile/
+https://prajwalgit216.github.io/my-developer-profile/
