@@ -19,6 +19,7 @@
             text-align: center;
         }
 
+<<<<<<< HEAD
         nav {
             background: #334155;
             padding: 10px;
@@ -202,3 +203,7 @@
 
 </body>
 </html>
+=======
+## Live Website
+https://prajwalgit216.github.io/my-developer-profile/
+>>>>>>> 76b89ccb106bb57972bd318f456631ef4c916c29
