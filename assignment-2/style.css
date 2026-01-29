@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Inter',sans-serif
+}
+body{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#e9eef5,#cfd9e6);transition:.4s
+}
+body.dark{
+  background:linear-gradient(135deg,#0f172a,#1e293b)
+}
+.app{
+  width:100%;
+  max-width:420px;
+  background:#fff;border-radius:18px;
+  padding:24px;
+  box-shadow:0 20px 40px rgba(0,0,0,.12);
+  color:#1f2933;transition:.4s
+}
+body.dark .app{
+  background:#020617;color:#e5e7eb
+}
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:15px
+}
+.header h1{
+  font-size:22px;
+  font-weight:600
+}
+.toggle{
+  border:none;
+  background:#e5e7eb;
+  color:#111;
+  border-radius:20px;
+  padding:6px 14px;
+  cursor:pointer
+}
+body.dark .toggle{
+  background:#334155;
+  color:#fff
+}
+.input-box{
+  display:flex;
+  gap:10px;margin:15px 0
+}
+.input-box input{
+  flex:1;
+  padding:12px 14px;
+  border-radius:12px;
+  border:1px solid #cbd5e1;
+  outline:none
+}
+body.dark .input-box input{
+  background:#020617;
+  color:#fff;
+  border-color:#334155
+}
+.input-box button{
+  padding:12px 18px;
+  border:none;
+  border-radius:12px;
+  background:#2563eb;
+  color:#fff;
+  font-weight:500;
+  cursor:pointer
+}
+.filters{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin:10px 0
+}
+.filters button{
+  border:none;
+  padding:6px 14px;
+  border-radius:20px;
+  background:#e5e7eb;
+  cursor:pointer
+}
+.filters button.active{
+  background:#2563eb;
+  color:#fff
+}
+body.dark .filters button{
+  background:#334155;
+  color:#fff
+}
+body.dark .filters button.active{
+  background:#38bdf8;
+  color:#000
+}
+ul{
+  list-style:none;
+  max-height:280px;
+  overflow:auto
+}
+li{
+  background:#f8fafc;
+  margin-bottom:10px;
+  padding:12px 14px;
+  border-radius:14px;
+  display:flex;
+  justify-content:space-between;
+  gap:10px
+}
+body.dark li{
+  background:#020617
+}
+li span{
+  flex:1;
+  cursor:pointer
+}
+li.done span{
+  text-decoration:line-through;
+  color:#94a3b8
+}
+.actions button{
+  border:none;
+  background:transparent;
+  font-size:16px;
+  cursor:pointer
+}
+.footer{
+  display:flex;
+  justify-content:space-between;
+  font-size:13px;
+  margin-top:10px;
+  color:#475569
+}
+body.dark .footer{
+  color:#cbd5f5
+}
+.footer button{
+  border:none;
+  background:none;
+  color:#2563eb;
+  cursor:pointer
+}
+body.dark .footer button{
+  color:#38bdf8
+}
